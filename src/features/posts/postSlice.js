@@ -3,7 +3,7 @@ import postService from './postService'
 import {extractErrorMessage} from '../../utils'
 
 const initialState = {
-    posts: null,
+    posts: [],
     post: null,
 }
 
