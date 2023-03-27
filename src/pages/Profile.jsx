@@ -4,9 +4,7 @@ import { useEffect, useState } from 'react'
 import { useNavigate, useParams, Link } from 'react-router-dom'
 import {toast} from 'react-toastify'
 import {IoSettingsOutline} from 'react-icons/io5'
-import { getDownloadURL, ref, uploadBytesResumable } from 'firebase/storage';
-import { storage } from '../firebase/firebase';
-import {v4 as uuidv4} from 'uuid'
+
 import defaultAvatar from '../components/assets/defaultAvatar.png'
 
 

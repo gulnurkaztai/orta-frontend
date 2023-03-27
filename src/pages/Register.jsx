@@ -5,7 +5,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import { register} from '../features/auth/authSlice';
 import Spinner from '../components/spinner/Spinner';
 import { Link } from 'react-router-dom'
-import {FaGithub, FaFacebook, FaGoogle, FaRegEnvelope, FaRegUserCircle} from 'react-icons/fa'
+import {FaRegEnvelope, FaRegUserCircle} from 'react-icons/fa'
 import {BiLock} from 'react-icons/bi'
 import GoogleLogin from '../components/user/GoogleLogin';
  

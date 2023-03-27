@@ -1,5 +1,5 @@
 import { useState} from "react"
-import {  useDispatch, useSelector } from "react-redux"
+import { useDispatch, useSelector } from "react-redux"
 import {useNavigate} from 'react-router-dom'
 import {toast} from 'react-toastify'
 import {createPost} from '../features/posts/postSlice'
