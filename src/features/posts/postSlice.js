@@ -18,7 +18,7 @@ export const createPost = createAsyncThunk('/posts/create', async(postData, thun
 })
 
 // Get posts
-export const getPosts = createAsyncThunk('/posts/getAll', async(_, thunkAPI) =>{
+export const getPosts = createAsyncThunk('/posts/getAll', async(req, thunkAPI) =>{
     try{
 
         return await postService.getPosts()
